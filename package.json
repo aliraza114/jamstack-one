@@ -15,8 +15,12 @@
   },
   "license": "0BSD",
   "dependencies": {
-    "gatsby": "^2.24.63",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "gatsby": "^2.24.65",
+    "gatsby-plugin-typescript": "^2.4.17",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.7"
   }
 }
