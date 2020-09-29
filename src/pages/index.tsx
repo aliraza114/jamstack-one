@@ -16,6 +16,10 @@ export default () => {
             <p>From the container CSS Module</p>
         </Container>
         <Link to="/dynamic-page">Dynamically Created Page At Build Time</Link>
+        <br/>
+        <Link to="/home/page">Client Side Page</Link>
+        <br/>
+        <Link to="/home/another">Another Client Page</Link>
         </Layout>
     </div>
 }
