@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../components/Header'
 import Layout from '../components/Layouts'
 import Container from '../components/Container'
+import { Button } from '@material-ui/core'
+
 import {Link} from 'gatsby'
 import '../style/style.css'
 
@@ -21,5 +23,6 @@ export default () => {
         <br/>
         <Link to="/home/another">Another Client Page</Link>
         </Layout>
+        <Button variant="contained" color="secondary">Material UI Button</Button>
     </div>
 }
